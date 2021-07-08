@@ -1,5 +1,4 @@
 <?php
-// $string = $name = "";
 
 $name = $_GET["name"]; 
 

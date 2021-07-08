@@ -1,6 +1,6 @@
 <?php
 $name = NULL;
-session_start() {
+session_start();
     if (array_key_exists("name", $_GET)) {
         $name = $_GET["name"];
         $_SESSION["name"] = $name;
@@ -15,5 +15,4 @@ session_start() {
             echo "Hello platypus";
         }
 setcookies("name", $data);
-}
 ?>
